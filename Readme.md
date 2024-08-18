@@ -52,3 +52,21 @@ The Menu Management Backend API allows you to manage a hierarchical menu system 
 - get_item_by_name:http://localhost:4006/api/items-id?id=66c2438f926927486621dd73
 - update_item:http://localhost:4006/api/items-id?id=66c2438f926927486621dd73
 - search_item_by_name:http://localhost:4006/api/items/search/name?name=c
+
+
+1. Which database you have chosen and why?
+I went with MongoDB because it’s really good at handling nested data, which is perfect for this kind of project where categories, subcategories, and items are all interconnected.
+
+2. Three things that you learned from this assignment?
+How to structure a RESTful API for a project with multiple layers of data relationships.
+The importance of clear and consistent API routing to make the backend easier to use and maintain.
+How to leverage MongoDB for efficiently managing and querying hierarchical data.
+
+3. What was the most difficult part of the assignment?
+The hardest part was definitely making sure that the relationships between categories, subcategories, and items stayed consistent, especially when creating, updating, or deleting them. It required careful planning to ensure data integrity across the board.
+
+4. What you would have done differently given more time?
+If I had more time, I would have worked on setting up tests to catch bugs sooner.
+
+
+
